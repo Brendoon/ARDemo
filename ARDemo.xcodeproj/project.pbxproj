@@ -13,8 +13,8 @@
 		6512B7251ED6227D00A9ABF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6512B7241ED6227D00A9ABF9 /* Assets.xcassets */; };
 		6512B7281ED6227D00A9ABF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6512B7261ED6227D00A9ABF9 /* LaunchScreen.storyboard */; };
 		6512B7301ED622E400A9ABF9 /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6512B72F1ED622E400A9ABF9 /* ARView.swift */; };
-		651CCDE11ED75D320006CD08 /* Coin.scn in Resources */ = {isa = PBXBuildFile; fileRef = 651CCDE01ED75D320006CD08 /* Coin.scn */; };
-		651CCDE31ED760140006CD08 /* MagicaVoxel_Diffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = 651CCDE21ED760140006CD08 /* MagicaVoxel_Diffuse.png */; };
+		654CE4C11ED77DCE00DA280E /* Coin.scn in Resources */ = {isa = PBXBuildFile; fileRef = 654CE4BF1ED77DCE00DA280E /* Coin.scn */; };
+		654CE4C21ED77DCE00DA280E /* MagicaVoxel_Diffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = 654CE4C01ED77DCE00DA280E /* MagicaVoxel_Diffuse.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		6512B7271ED6227D00A9ABF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6512B7291ED6227D00A9ABF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6512B72F1ED622E400A9ABF9 /* ARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
-		651CCDE01ED75D320006CD08 /* Coin.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = Coin.scn; path = "../../../../Downloads/3D_Apple_Games_by_Tutorials_v2.0.1/24-3d-art-for-programmers/final/Mr.Pig/Mr.Pig/MrPig.scnassets/Coin.scn"; sourceTree = "<group>"; };
-		651CCDE21ED760140006CD08 /* MagicaVoxel_Diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MagicaVoxel_Diffuse.png; path = "../../../../Downloads/3D_Apple_Games_by_Tutorials_v2.0.1/24-3d-art-for-programmers/final/Mr.Pig/Mr.Pig/MrPig.scnassets/MagicaVoxel_Diffuse.png"; sourceTree = "<group>"; };
+		654CE4BF1ED77DCE00DA280E /* Coin.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Coin.scn; sourceTree = "<group>"; };
+		654CE4C01ED77DCE00DA280E /* MagicaVoxel_Diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MagicaVoxel_Diffuse.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +60,13 @@
 		6512B71C1ED6227D00A9ABF9 /* ARDemo */ = {
 			isa = PBXGroup;
 			children = (
+				654CE4BF1ED77DCE00DA280E /* Coin.scn */,
+				654CE4C01ED77DCE00DA280E /* MagicaVoxel_Diffuse.png */,
 				6512B71D1ED6227D00A9ABF9 /* AppDelegate.swift */,
 				6512B72F1ED622E400A9ABF9 /* ARView.swift */,
 				6512B71F1ED6227D00A9ABF9 /* ViewController.swift */,
 				6512B7211ED6227D00A9ABF9 /* Main.storyboard */,
 				6512B7241ED6227D00A9ABF9 /* Assets.xcassets */,
-				651CCDE01ED75D320006CD08 /* Coin.scn */,
-				651CCDE21ED760140006CD08 /* MagicaVoxel_Diffuse.png */,
 				6512B7261ED6227D00A9ABF9 /* LaunchScreen.storyboard */,
 				6512B7291ED6227D00A9ABF9 /* Info.plist */,
 			);
@@ -135,9 +135,9 @@
 			files = (
 				6512B7281ED6227D00A9ABF9 /* LaunchScreen.storyboard in Resources */,
 				6512B7251ED6227D00A9ABF9 /* Assets.xcassets in Resources */,
-				651CCDE31ED760140006CD08 /* MagicaVoxel_Diffuse.png in Resources */,
+				654CE4C21ED77DCE00DA280E /* MagicaVoxel_Diffuse.png in Resources */,
+				654CE4C11ED77DCE00DA280E /* Coin.scn in Resources */,
 				6512B7231ED6227D00A9ABF9 /* Main.storyboard in Resources */,
-				651CCDE11ED75D320006CD08 /* Coin.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
