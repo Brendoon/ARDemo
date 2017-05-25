@@ -48,6 +48,9 @@ class ARView: UIView {
         // Setup camera
         setupCamera()
         
+        //sceneView = SCNView()
+        //sceneView.scene = SCNScene()
+        
         // Setup 3D scene
         setup3D()
         
@@ -93,7 +96,7 @@ class ARView: UIView {
     
     func stop3D() {
         
-        sceneView.scene = nil
+        sceneView.scene = SCNScene()
         
     }
     
